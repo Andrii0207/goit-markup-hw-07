@@ -65,51 +65,28 @@ address {
   align-items: center;
 }
 
+.header-icon {
+  margin-right: 10px;
+  fill: var(--secondary-font-color);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-contact:hover .header-icon,
+.header-contact:focus .header-icon {
+  fill: var(--accent-color);
+}
+
 .nav-list {
   display: flex;
   align-items: center;
-}
-
-.nav-list-item:not(:last-child) {
-  margin-right: 50px;
 }
 
 .nav-list-item {
   position: relative;
 }
 
-.logo {
-  margin-right: 94px;
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
-
-.contact-list {
-  display: flex;
-  align-items: center;
-  margin-left: auto;
-}
-
-.link.current {
-  color: var(--accent-color);
-}
-
-.web {
-  font-family: var(--secondary-font-family);
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: var(--accent-color);
-}
-
-.studio-logo {
-  font-family: var(--secondary-font-family);
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: #000000;
+.nav-list-item:not(:last-child) {
+  margin-right: 50px;
 }
 
 .nav-list-link {
@@ -123,8 +100,7 @@ address {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav-list-link:hover,
-.nav-list-link:focus {
+.nav-list-link:hover, .nav-list-link:focus {
   color: var(--accent-color);
 }
 
@@ -139,6 +115,12 @@ address {
   background-color: var(--btn-bg-color);
 }
 
+.contact-list {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
 .contact-email {
   padding: 32px 0;
   font-weight: 500;
@@ -150,20 +132,8 @@ address {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contact-email:hover,
-.contact-email:focus {
+.contact-email:hover, .contact-email:focus {
   color: var(--accent-color);
-}
-
-.header-icon {
-  margin-right: 10px;
-  fill: var(--secondary-font-color);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.header-contact:hover .header-icon,
-.header-contact:focus .header-icon {
-  fill: var(--accent-color);
 }
 
 .contact-number {
@@ -176,9 +146,32 @@ address {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contact-number:hover,
-.contact-number:focus {
+.contact-number:hover, .contact-number:focus {
   color: var(--accent-color);
+}
+
+.web {
+  font-family: var(--secondary-font-family);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+
+.logo {
+  margin-right: 94px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.studio-logo {
+  font-family: var(--secondary-font-family);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
 }
 
 .portfolio {
