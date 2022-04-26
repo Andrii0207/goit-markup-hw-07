@@ -79,10 +79,6 @@
     margin-left: auto;
   }
 
-  &-wrapper {
-    display: flex;
-  }
-
   &-name {
     margin-bottom: 20px;
     font-family: var(--primary-font-family);
@@ -93,6 +89,10 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--white-font-color);
+  }
+
+  &-wrapper {
+    display: flex;
   }
 
   &-input {
@@ -118,10 +118,6 @@
       letter-spacing: 0.03em;
       color: rgba(255, 255, 255, 0.6);
     }
-
-    &-icon {
-      margin-left: 10px;
-    }
   }
 
   &-btn {
@@ -144,6 +140,10 @@
     text-align: center;
     letter-spacing: 0.06em;
     color: var(--white-font-color);
+  }
+
+  &-icon {
+    margin-left: 10px;
   }
 }
 

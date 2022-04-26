@@ -546,10 +546,6 @@ address {
   margin-left: auto;
 }
 
-.subscribe-wrapper {
-  display: flex;
-}
-
 .subscribe-name {
   margin-bottom: 20px;
   font-family: var(--primary-font-family);
@@ -560,6 +556,10 @@ address {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--white-font-color);
+}
+
+.subscribe-wrapper {
+  display: flex;
 }
 
 .subscribe-input {
@@ -587,10 +587,6 @@ address {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.subscribe-input-icon {
-  margin-left: 10px;
-}
-
 .subscribe-btn {
   display: flex;
   justify-content: center;
@@ -611,6 +607,10 @@ address {
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--white-font-color);
+}
+
+.subscribe-icon {
+  margin-left: 10px;
 }
 
 .studio {
